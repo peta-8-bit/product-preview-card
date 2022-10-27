@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<main class="card-container">
+
+<div class="card">
+  <div class="image">
+    <picture>
+      <source media="(max-width:600px)"
+              srcset="image-product-mobile.jpg">
+      <img src="image-product-desktop.jpg" alt="image of product">
+    </picture>
+    
+  </div>
+  <div class="cardtext">  
+    <div class=".heading2">
+      <h2>PERFUME</h2>
+    </div>
+     
+    <div class=".heading1">
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+    </div>
+      
+    <div class=".para">
+      <p class="description">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.
+      </p>
+    </div>
+
+    <div class="cost">
+      <p><span class="price">$149.99</span><span class="strike"><sup><s>$169.99</s></sup></span></p> 
+    </div>
+      
+    <div class="cart">
+      <a href="#" class="btn"><span class="icon"><ion-icon name="cart-outline"></ion-icon></span>Add to Cart</a>   
+    </div>
+      
+    
+  </div>
+</div>
+
+</main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/peta-8-bit">Petabyte</a>.
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
